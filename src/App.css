@@ -2,13 +2,31 @@
   color: #fff;
 }
 
+/* =============
+  Scroll Bar
+============= */
+::-webkit-scrollbar{
+  width: 15px;
+  background: red;
+}
+::-webkit-scrollbar-track{
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 50px;
+  background: #555;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
 body{
   background: #192a56;
 }
 
 .col-md-6{
   padding: 2rem;
-  background: gray;
+  /* background: gray; */
 }
 
 .col-md-6 p{
