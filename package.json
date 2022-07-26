@@ -1,5 +1,4 @@
 {
-  // Added this
   "homepage": "https://nawazdanish1996.github.io/react-demo-project-host",
   "name": "projectharry-app",
   "version": "0.1.0",
@@ -16,9 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    // Added this
     "predeploy": "npm run build",
-    // Added this
     "deploy": "gh-page -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
