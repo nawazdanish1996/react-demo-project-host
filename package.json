@@ -1,5 +1,6 @@
 {
   "name": "projectharry-app",
+  "homepage": "https://create-react-app.dev/docs/deployment/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
